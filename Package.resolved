@@ -1,0 +1,33 @@
+{
+  "originHash" : "9d6883feab365dd33f8a355eb4fd10b4b061819ed7faaef6c208f577b322764a",
+  "pins" : [
+    {
+      "identity" : "jwtdecode.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/auth0/JWTDecode.swift.git",
+      "state" : {
+        "revision" : "36a5ce735a61c4bc119593f43ce2c027b4ca7392",
+        "version" : "3.3.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "dd3c422ec3088404d6f7e8c905a8318b3de12d6f",
+        "version" : "8.6.0"
+      }
+    },
+    {
+      "identity" : "utilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/agb-technology/Utilities.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d393e0f79baa959461168db11bab9c71783d0b10"
+      }
+    }
+  ],
+  "version" : 3
+}

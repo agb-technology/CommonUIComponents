@@ -1,0 +1,121 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "error.general" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong. Please try again later."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တစ်ခုခုမှားယွင်းသွားပါသည်။ ကျေးဇူးပြု၍  နောက်တစ်ကြိမ် ထပ်မံကြိုးစားပေးပါ။ "
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出了点问题，请稍后重试。"
+          }
+        }
+      }
+    },
+    "error.general.network" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No internet connection. Please check your network settings."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်တာနက်ချိတ်ဆက်မှု မရှိပါ။ သင့်ကွန်နက်ရှင်ကို စစ်ဆေးပါ။"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络连接不可用，请检查网络设置。"
+          }
+        }
+      }
+    },
+    "error.general.server" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The server is busy. Please try again later."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဆာဗာ အလုပ်များနေပါသည်။ ကျေးဇူးပြု၍ ခဏစောင့်ပြီးနောက် ထပ်မံကြိုးစားကြည့်ပါ။"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服务器繁忙，请稍后重试。"
+          }
+        }
+      }
+    },
+    "error.general.timeout" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The request timed out. Please check your connection and try again."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တောင်းဆိုမှု အချိန်အကန့်အသတ်ကျော်သွားပါသည်။ သင့်ကွန်နက်ရှင်ကို စစ်ဆေးပြီး ထပ်ကြိုးစားပေးပါ။"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请求超时，请检查网络连接后重试。"
+          }
+        }
+      }
+    },
+    "error.general.unauthorized" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your session has expired. Please log in again."
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သင့်လော့ဂ်အင် သက်တမ်းကုန်သွားပါသည်။ ထပ်မံ၀င်ရောက်ပေးပါ။"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "会话已过期，请重新登录。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

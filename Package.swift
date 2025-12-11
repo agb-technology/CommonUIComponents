@@ -5,19 +5,29 @@ import PackageDescription
 
 let package = Package(
     name: "CommonUIComponents",
+    platforms: [ .iOS(.v16) ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "CommonUIComponents",
             targets: ["CommonUIComponents"]
         ),
     ],
+    dependencies: [
+        // Kingfisher
+        .package(url: "https://github.com/onevcat/Kingfisher.git", exact: "8.6.0"),
+        // 自定义通用工具库
+        .package(url: "https://github.com/agb-technology/Utilities.git", branch: "main"),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "CommonUIComponents"
+            name: "CommonUIComponents",
+            dependencies: [
+                // 图片加载和缓存库 - 提供高效的网络图片下载、缓存和显示功能
+                .product(name: "Kingfisher", package: "Kingfisher"),
+                // 自定义通用工具
+                .product(name: "Utilities", package: "Utilities")
+            ],
+            resources: [ .process("Resources") ]
         ),
-
     ]
 )
