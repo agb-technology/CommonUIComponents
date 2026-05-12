@@ -16,7 +16,7 @@ let package = Package(
         // Kingfisher
         .package(url: "https://github.com/onevcat/Kingfisher.git", exact: "8.6.0"),
         // 自定义通用工具库
-        .package(url: "https://github.com/agb-technology/Utilities.git", branch: "main"),
+        .package(url: "https://github.com/agb-technology/Utilities.git", branch: "main")
     ],
     targets: [
         .target(
